@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+#main{
+  background-image: url("../download/pexels-photospublic-33041.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#name{
+  /* border: 1px solid black; */
+  border-bottom: 2px solid #fff;
+}
+#email{
+  border-bottom: 2px solid #fff;
+}
+#number{
+   border-bottom: 2px solid #fff;
+}
+#newPass{
+  border-bottom: 2px solid #fff;
+}
+#conPass{
+  border-bottom: 2px solid #fff;
+}
+
+#signup{
+    background-image: url("../download/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation:animateBg 5s linear infinite;
+  
+}
+
+@keyframes animateBg {
+  100% {
+    filter:hue-rotate(360deg);
+  }
+}
+#signupform{
+   backdrop-filter: blur(15px);
+}
